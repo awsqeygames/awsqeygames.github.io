@@ -1,0 +1,595 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-size: large;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    background-color: white;
+    color: #00031bff;
+    border-color: #00031bff;
+    /* background-image: url(/assets/images/awsqey\ games\ logo\ bg.png); */
+    background-size: cover;
+    background-position: center;
+}
+main{
+    margin: .5em;
+}
+h1, h3, h4, h5, h6{
+    padding: .5rem;
+    margin: 1rem;
+    border-bottom: 3px solid;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    position: relative;
+    top: -2px;
+    left: 2px;
+}
+.nav-li{
+    display: block;
+}
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 70%;
+    text-transform: uppercase;
+    background-color: #00031bff;
+    z-index: 2;
+    transform: translateX(100%);
+    transition: transform 330ms ease-in-out;
+}
+.bg-close-nav{
+    position: absolute;
+    left: -40%;
+    width: 40%;
+    height: 100vh;
+}
+.nav-link{
+    font-style: bold;
+    font-size: 1rem;
+}
+.logo-tit-p{
+    display: flex;
+    height: 100%;
+}
+ul{
+    list-style-type: none;
+    padding: 0em;
+    margin-top: 2em;
+    text-align: left;
+}
+.close-nav{
+    float: right;
+    margin: 0.2em 0.5em 0em 0;
+    width: 2em;
+}
+nav a{
+    padding: .75em 2em;
+    display: block;
+}
+
+.game-title-p:hover{
+    border: 2px solid black;
+}
+
+.img-con img:hover{
+    border: 2px solid rgb(0, 65, 88);
+    filter: drop-shadow(0px 0px 5px #ffffff3d);
+}
+
+.each-game-link{
+    margin-top: 0;
+    justify-content: space-between;
+}
+.store-each-game-link{
+    padding: 0;
+    
+}
+.store-each-game-link a{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 14px;
+    padding: .5em;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: medium;
+}
+h1.motto, .slide-text{
+    font-weight: bolder;
+    font-size: 2rem;
+    border: none;
+    text-align: left;
+    
+}
+.hero-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../assets/images/awsqey\ games\ logo\ bg.png');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: 50%;
+    overflow: hidden;
+    border-bottom-left-radius: 1.2em;
+    border-bottom-right-radius: 1.2em;
+    animation: introLoad 2s forwards;
+}
+.nav-logo{
+    border: 2px solid;
+    border-radius: 200px;
+    padding: .1em;
+    margin: .4em;
+}
+#desktop-page-title{
+    margin: .2em;
+    display: none;
+    border: 0;
+    border-radius: 40px;
+    padding: 0.4em;
+}
+.page-title{
+    font-family:'Agency FB', 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+header{
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #00031bff;
+    border-bottom-style: solid;
+    border-color: white;
+    border-radius: 0px 0px 20px 20px;
+    color: white;
+    display:flex;
+    z-index: 1;
+    justify-content: space-between;
+    max-height: 3em;
+    padding: 0.3em;
+}
+
+.nav-icon{
+    width: 2.6em;
+    padding-right: 0.4em;
+}
+footer{
+    margin: 0em;
+    color: black;
+    background-color: white;
+    width: 100vw;
+    left: 0;
+    position: absolute;
+}
+.footer-sec1{
+    margin: .5em;
+}
+.about-us{
+    text-align: center;
+}
+div.hero{
+    font-size: xx-large;
+    margin-top: 88vh;
+    margin-bottom: 8vh;
+    color: white;
+    height: 10vh;
+    opacity: 0;
+    animation: displayMotto 2s ease-in-out forwards;
+}
+.scroll-arrow{
+    position: absolute;
+}
+
+.pro-img{
+    width: 100%;
+    object-fit: cover;
+    height: 15em;
+}
+
+.game-title-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-title{
+    display: inline-block;
+    font-weight: bold;
+    border:none;
+    text-align: center;
+    padding: .2em;
+}
+.all-games{
+    border-style: solid;
+    border-radius: 30px;
+}
+.game{
+    border-style: solid;
+    margin: 12px;
+    border-radius: 20px;
+    padding: 5px;
+}
+h2.title-game-section{
+    font-size: 36px;
+    text-align: center;
+    border-radius: 0.5em;
+    /* border-style: solid; */
+    border-color: black;
+    padding: 1px 24px;
+    margin: 0em 0.3em .05em 0.3em;
+}
+ul{
+    display: flex;
+}
+.dropdown-games{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.social-icon{
+    width: 2em;
+    margin: 0.2em;
+}
+.get-game-store li a{
+    padding: .5rem;
+    border-radius: 50px;
+}
+.policies li{
+    font-size: x-small;
+}
+.contact-icons, .get-game-store{
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.about-title, .contact-title{
+    margin-bottom: 0;
+    text-align: center;
+}
+.about-us-content, .contact, .policies{
+    margin: 0em 0em 0em 0em;
+/*  border-style: solid;*/
+    border-radius: .9em;
+    padding: 0.4em;
+    justify-content: space-between;
+}
+.contact{
+    padding-inline: 10%;
+}
+.open-nav{
+    transform: translateX(0%);
+}
+
+.disable-screen{
+    display: none;
+}
+
+@media only screen and (min-width: 650px){
+    main{
+        margin: .5em 2em;
+    }
+
+    .footer-sec1{
+        margin: 2em;
+    }
+}
+
+
+/*tablet view*/
+@media only screen and (min-width: 750px){
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    main{
+        margin: .5em 4em;
+    }
+    ul{
+        display: flex;
+    }
+    h2.title-game-section{
+        border: 0;
+        border-radius: 0px;
+        border-bottom: 3px solid #00031bff;
+    }
+    .all-games{
+        border: 0;
+    }
+    .game-title{
+        border: 0;
+        font-size: xx-large;
+    }
+    .game{
+        margin-bottom: 3em;
+        border-radius: 0;
+        border: 0;
+        border-bottom: 2px solid black;
+    }
+    .footer-sec1{
+        margin: 4em;
+    }
+    h3.about-title, h3.contact-title{
+        margin: 0;
+        border: 0;
+        font-size: xx-large;
+    }
+    p.about-us-content{
+        border: 0;
+        margin-bottom: 2em;
+    }
+    ul.policies{
+        margin: auto;
+        width: 70%;
+    }
+
+    
+    .contact-icons img{
+        margin-inline: 0.5em;
+    }
+    #amazon-store-link, #google-store-link{
+        margin-inline: 0.8em;
+    }
+}
+
+
+/*desktop view*/
+@media only screen and (min-width: 920px)
+{
+#mobile-page-title{
+    display: none;
+}
+#desktop-page-title{
+    display: block;
+}
+body{
+    margin: 0;
+}
+h1.motto, .slide-text{
+    font-size: 4rem;
+}
+main{
+    margin-inline: 5em;
+}
+h2.title-game-section{
+    border: 0;
+    border-radius: 0px;
+    border-bottom: 3px solid #00031bff;
+}
+.all-games{
+    border: 0;
+}
+.game-title{
+    border: 0;
+    font-size: xx-large;
+}
+
+h3.about-title, h3.contact-title{
+    margin: 0;
+    border: 0;
+    font-size: xx-large;
+}
+p.about-us-content{
+    border: 0;
+    margin-bottom: 2em;
+}
+ul.policies{
+    margin: auto;
+    width: 70%;
+}
+ul.policies li a{
+    color: white;
+}
+.contact-icons img{
+    margin-inline: 0.5em;
+}
+.get-game-store li a{
+    border-style: solid;
+}
+#amazon-store-link, #google-store-link{
+    margin-inline: 1em;
+}
+.footer-sec1{
+    margin-inline: 5em;
+}
+    /*navigation drop down*/
+.dropping-down-games{
+    width: 9rem;
+}
+nav a:hover{
+    background-color: rgb(234, 234, 234);
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul.dropdown-games{
+    margin: 0;
+    display: none;
+    flex-direction: column;
+}
+
+ul li ul.dropdown-games{
+    width: 100%;
+    background: #00073eff;
+    position: absolute;
+    z-index: 2;
+}
+
+.nav-li li a:hover{
+    background: #00073eff;
+}
+.nav-li li:hover ul.dropdown-games{
+    display: block;
+}
+.nav-each-game-link{
+    font-size: .8rem;
+}
+.nav-each-game-link:hover{
+    background: #0a0d30ff;
+}
+.footer-sec2 .contact-title{
+    display: none;
+}
+.footer-sec2{
+    padding: 1em;
+    background-color: black;
+    color: white;
+}
+.contact{
+    display: flex;
+    border: 0;
+    margin-bottom: 1em;
+}
+.contact li{
+    margin: 0;
+}
+.policies{
+    border: 0;
+}
+/* end of nav drop down*/
+    .nav-icon{
+        display: none;
+    }
+    nav{
+        display:flex;
+        transform: translateX(0);
+        position: unset;
+        display: block;
+        width: auto;
+        height: auto;
+        background: none;
+    }
+    .close-nav{
+        display: none;
+        margin: 0;
+    }
+    .nav-li{
+        display: flex;
+    }
+    nav a{
+        color: white;
+        padding: .5em 1.5em;
+        font-size: .9rem;
+    }
+    nav a:hover{
+        background-color: none;
+        text-decoration: underline;
+    }
+
+    h1.motto, .slide-text{
+        max-width: 85%;
+    }
+    .page-title{
+        border-style: solid;
+    }
+    header{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        border-top-left-radius: 0em;
+        border-top-right-radius: 0em;
+        align-items: center;
+    }
+    .game{
+        /* display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 1em;
+        margin-bottom: 1em; */
+        display: flex;
+        flex-direction: column;
+    }
+    .img-and-des{
+        display: flex;
+        flex-direction: row;
+    }
+    .flip-img-and-des{
+        flex-direction: row-reverse;
+    }
+    .img-con{
+        width: 50%;
+        padding: 1rem;
+    }
+    .content{
+        padding: 1rem;
+        width: 50%;
+        min-height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .game{
+        margin-bottom: 3em;
+        border-radius: 0;
+        border: 0;
+        border-bottom: 2px solid black;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .wrapper{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 1300px){
+    .wrapper{
+        width: 1300px;
+        margin: 0 auto;
+    }
+}
+
+@keyframes introLoad{
+    from{
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+@keyframes displayMotto{
+    from{
+        transfom: translateY(-100px);
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Code For dark mode*/
+.body-dark{
+    background-color: #00031bff;
+    color: white;
+    border-color: white;
+}
+.game-title-p:hover{
+    border: 2px solid white;
+}
+/* .img-con{
+    filter: drop-shadow(30px 10px 4px #4444dd);
+} */
+.game-dark{
+    border-color: white;
+}
+.footer-dark{
+    background-color: #00031bff;
+}
+.footer-sec1-dark{
+    background-color: white;
+}
+.footer-sec2-dark{
+    color: white;
+    background-color: black;
+}

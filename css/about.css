@@ -1,0 +1,140 @@
+main{
+    text-align: left;
+}
+h5{
+    font-size: x-large;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    /* border: 2px solid white;
+    border-radius: 20px; */
+    margin-bottom: 1em;
+    position:static;
+}
+.sec-tit-con{
+    width: 100%;
+}
+.about-secs-tit{
+    text-align: left;
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 1em;
+}
+.sec-img-con{
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    width: 90%;
+    height: 40vh;
+}
+.img-and-def{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.defin-intro-img{
+    height: 50vh;
+    width: 100%;
+}
+.pers-defin-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+    max-width: 500px;
+}
+.defin-img{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0.8em;
+    max-width: 200px;
+    max-height: 200px;
+}
+.defin-cont-tit, .defin-cont p{
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*desktop view*/
+@media only screen and (min-width: 650px){
+.pers-defin-con-p{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.pers-defin-con{
+    flex-direction: row;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.defin-img{
+    flex: 200px;
+    width: 200px;
+    height: 200px;
+}
+.defin-cont{
+    flex: 210px;
+}
+}
+
+/*tablet view*/
+@media only screen and (min-width: 750px){
+}
+
+/*desktop view*/
+@media only screen and (min-width: 920px){
+.about-secs-tit{
+    font-size: 5rem;
+    margin-bottom: 25px;
+}
+.img-and-def{
+    flex-direction: row;
+    gap: 1em;
+    min-height: 3em;
+    align-items: flex-end;
+}
+.img-and-def p{
+    max-width: 40%;
+    margin: 0;
+}
+.sec-img-con{
+    height: 60vh;
+}
+}
+
+@media only screen and (min-width: 1200px){
+}

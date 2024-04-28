@@ -1,0 +1,170 @@
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100vw;
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+}
+.mySlides{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: 50%;
+  overflow: hidden;
+  border-bottom-left-radius: 1.2em;
+  border-bottom-right-radius: 1.2em;
+}
+.slideshow-container .mySlides{
+  height: 100vh;
+}
+#img-slide-1{
+  background-image: url(/assets/images/awsqey\ games\ logo\ bg.png);
+  animation: zoom 5s linear;
+}
+#img-slide-2{
+  background-image: url(/assets/images/ice\ block\ puzzle\ bg.png);
+  animation: zoom 5s linear;
+}
+#img-slide-3{
+  background-image: url(/assets/images/smash\ combat\ bg.png);
+  animation: zoom 5s linear;
+}
+#about-text-1,#about-text-2,#about-text-3
+{
+  animation: zoom 5s linear;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.slide-text{
+  animation: bounce 1s ease-in-out;
+}
+@keyframes bounce {
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.text-hero{
+  background-color: black;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: #71717100;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  left: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.27);
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 15vh;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.slide-dot-p{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -10vh;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(130, 119, 165);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgb(46, 27, 65);
+}
+.fade-out{
+  animation: fadeOut 3s linear;
+}
+@keyframes zoom {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.01);
+  }
+  20%{
+    opacity: 1;
+    transform: scale(1.02);
+  }
+  30%{
+    opacity: 1;
+    transform: scale(1.03);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.06);
+  }
+  70%{
+    opacity: 1;
+    transform: scale(1.07);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  90% {
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(360deg);
+    transform: scale(0.4);
+  }
+}
+@keyframes fadeOut {
+}

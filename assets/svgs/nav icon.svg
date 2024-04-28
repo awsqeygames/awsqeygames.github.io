@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="140mm"
+   viewBox="0 0 210 140"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="hand purger icon.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.4460119"
+     inkscape:cx="13.452556"
+     inkscape:cy="273.5353"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <rect
+     style="fill:#000000;stroke:none;stroke-width:2.47065;stroke-linecap:round;stroke-miterlimit:30;paint-order:stroke markers fill"
+     id="rect10122"
+     width="187.40385"
+     height="29.863111"
+     x="-329.31628"
+     y="-205.20906"
+     ry="11.429523" />
+  <rect
+     style="fill:#000000;stroke:none;stroke-width:2.47065;stroke-linecap:round;stroke-miterlimit:30;paint-order:stroke markers fill"
+     id="rect10124"
+     width="187.40385"
+     height="29.863111"
+     x="-329.31628"
+     y="-162.07343"
+     ry="11.429523" />
+  <rect
+     style="fill:#000000;stroke:none;stroke-width:2.47065;stroke-linecap:round;stroke-miterlimit:30;paint-order:stroke markers fill"
+     id="rect10126"
+     width="187.40385"
+     height="29.863111"
+     x="-329.31628"
+     y="-245.02655"
+     ry="11.429523" />
+  <path
+     id="path1511"
+     style="fill:none;stroke:#ffffff;stroke-width:34.8184;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     d="M 20.632849 25.448059 L 185.8331 25.448059 L 20.632849 25.448059 z M 20.632849 67.659436 L 186.23101 68.742057 L 20.632849 67.659436 z M 186.23101 109.80467 L 19.163171 109.87081 L 186.23101 109.80467 z " />
+</svg>

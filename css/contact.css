@@ -1,0 +1,78 @@
+.wrapper{
+    display: block;
+}
+main{
+    margin-top: 5rem;
+    font-size: x-large;
+    text-align: left;
+}
+h1, h3, h6{
+    margin-inline: 0;
+}
+h3, h6{
+    border: none;
+}
+h6{
+    font-size: large;
+}
+.a-but{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: medium;
+}
+.a-but img{
+    width: 28px;
+}
+.call-whatsapp-icon-con{
+    display: flex;
+    gap: 20px;
+}
+.location-con{
+    margin-top: 1em;
+}
+.location-con .con-icon{
+    width: 20px;
+}
+.location-con p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.con-icon{
+    width: 40px;
+    height: auto;
+}
+.contact-icons{
+    max-width: 500px;
+    margin-inline: auto;
+}
+.social-icon{
+    width: 36px;
+}
+section{
+    margin-bottom: 3em;
+}
+.contact-con{
+    max-width: 80%;
+    margin-inline: auto;
+}
+.location-con{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 600px)
+{
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid white;
+    }
+}
